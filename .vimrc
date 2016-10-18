@@ -12,3 +12,6 @@ set number          " Enable line numbers.
 set tabstop=4       " number of visual spaces per TAB
 set softtabstop=4   " number of spaces in tab when editing
 set shiftwidth=4    " number of culmns text is indented with reindent operations (<< & >>)
+
+" Default Color Scheme
+colorscheme slate
