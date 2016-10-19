@@ -2,6 +2,7 @@
 
 " Vim-Plug config section
 call plug#begin('~/.vim/plugged')
+Plug 'scrooloose/syntastic' " Syntax checking plugin
 Plug 'rust-lang/rust.vim'   " Rust syntax highlighting and formating, etc...
 Plug 'fatih/vim-go'         " Go syntax highling and other stuff...
 " Add plugins to &runtimepath
