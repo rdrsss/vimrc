@@ -5,6 +5,7 @@ call plug#begin('~/.vim/plugged')
 Plug 'scrooloose/syntastic' " Syntax checking plugin
 Plug 'rust-lang/rust.vim'   " Rust syntax highlighting and formating, etc...
 Plug 'fatih/vim-go'         " Go syntax highling and other stuff...
+Plug 'nvie/vim-flake8'      " Pep-8 for python
 " Add plugins to &runtimepath
 call plug#end()
 
@@ -16,3 +17,6 @@ set shiftwidth=4    " number of culmns text is indented with reindent operations
 
 " Default Color Scheme
 colorscheme slate
+
+filetype on
+au BufRead,BufNewFile *.go set filetype=go
